@@ -92,15 +92,15 @@ jobs:
       
       - uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_TOKEN }}
           
       - uses: docker/build-push-action@v5
         with:
           push: true
           tags: |
-            kaw393939/601_module9:latest
-            kaw393939/601_module9:${{ github.sha }}
+            collinjennings/assignment10:latest
+            collinjennings/assignment10:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
           cache-from: type=registry,ref=kaw393939/601_module9:cache
           cache-to: type=inline,mode=max
