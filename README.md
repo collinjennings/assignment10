@@ -1,3 +1,12 @@
+# Assignment 10 - FastAPI Calculator with Secure User Model, Pydantic Validation, Database Testing, and Docker Deployment
+
+This repository is a dockerized web calculator application, which uses SQLAlchemy and Pydantic to validate new users and add them to a Postgres database. The application also includes comprehensive testing for the calculator operations as well as for managing and validating the addition of new users to the database. 
+
+The application includes docker containers for connecting to a postgres database server, accessing the pgAdmin dashboard, and running the application with all of its dependencies. You can view the DockerHub repository below. 
+
+DockerHub Repository: https://hub.docker.com/repository/docker/collinjennings/assignment9/general
+
+
 # 📦 Project Setup
 
 ---
