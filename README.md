@@ -4,7 +4,7 @@ This repository is a dockerized web calculator application, which uses SQLAlchem
 
 The application includes docker containers for connecting to a postgres database server, accessing the pgAdmin dashboard, and running the application with all of its dependencies. You can view the DockerHub repository below. 
 
-DockerHub Repository: https://hub.docker.com/repository/docker/collinjennings/assignment9/general
+DockerHub Repository: https://hub.docker.com/repository/docker/collinjennings/assignment10/general
 
 
 # 📦 Project Setup
